@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
 return(
-<section className="relative h-[90vh]">
+<section id="pocetna" className="relative h-[90vh]">
 
           <Image
             src="/hero-garage.jpg"
