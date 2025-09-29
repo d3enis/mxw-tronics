@@ -14,7 +14,7 @@ const nav = [
 
 export default function Navbar() {
   return (
-    <header className="fixed inset-x-0 top-0 z-50  backdrop-blur">
+    <header className="fixed inset-x-0 top-0 z-50  ">
       <div className="mx-auto max-w-7xl px-4">
         <div className="grid h-16 grid-cols-[1fr_auto_1fr] items-center gap-4">
           <div />
@@ -27,9 +27,9 @@ export default function Navbar() {
               </span>
             </Link>
 
-            <nav className="hidden md:flex items-center gap-6 text-sm text-neutral-200">
+            <nav className="hidden md:flex items-center gap-6 text-sm text-white">
               {nav.map((i) => (
-                <a key={i.label} href={i.href} className="hover:text-white">
+                <a key={i.label} href={i.href} className="hover:text-black">
                   {i.label}
                 </a>
               ))}
