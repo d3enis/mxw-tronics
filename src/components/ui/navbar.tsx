@@ -14,7 +14,7 @@ const nav = [
 
 export default function Navbar() {
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur">
+    <header className="fixed inset-x-0 top-0 z-50  backdrop-blur">
       <div className="mx-auto max-w-7xl px-4">
         <div className="grid h-16 grid-cols-[1fr_auto_1fr] items-center gap-4">
           <div />
